@@ -1,4 +1,4 @@
-# necessary imports
+
 import secrets
 import string
 import streamlit as st
@@ -11,7 +11,6 @@ def generator(len):
 
     alphabet = letters + digits + special_chars
 
-    # fix password length
     pwd_length = int(len)
     pwd = ''
     for i in range(pwd_length):
